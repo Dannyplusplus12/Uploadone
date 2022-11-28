@@ -1,0 +1,251 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* COMMON */
+
+.common-container {
+    position: absolute;
+    background-image: linear-gradient(to top, rgb(4, 75, 230), rgb(71, 198, 248));
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.common-title {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.common-subtitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.close {
+    display: none !important;
+}
+
+.open {
+    display: initial !important;
+}
+
+/* MAIN */
+
+/* Background particles */
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+.particles-js-canvas-el {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+/* Main page */
+
+#main-page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("https://cdn.discordapp.com/attachments/1008571164500701304/1043468873996959746/dannytin_blue_white_sky_clound_455f84fb-bfde-418b-8be4-2e130fa349a7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    text-align: center;
+}
+
+#main-page .title {
+    margin-top: 4em;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#main-page .subtitle {
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+#main-page .agree-btn {
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(218, 59, 59);
+    border: none;
+    width: 78px;
+    height: 37px;
+    margin-top: 30px;
+    right: 20%;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+#main-page .degree-btn {
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(52, 174, 255);
+    border: none;
+    width: 78px;
+    height: 37px;
+    margin-top: 30px;
+    left: 20%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Input page */
+
+#input-page {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#input-page .container {
+    width: 400px;
+    height: 450px;
+}
+
+#input-page .image {
+    max-width: 100%;
+    padding: 10px 10px 0;
+    border-radius: 14px 14px 0 0;
+}
+
+#input-page .title {
+
+}
+
+#input-page .subtitle {
+
+}
+
+#input-page .btn {
+    width: 62px;
+    height: 39px;
+    border: none;
+    margin-top: 1em;
+    border-radius: 4px;
+    background-color: rgb(52, 174, 255);
+    font-size: 23px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Question Page */
+
+#question-page {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#question-page .container {
+    width: 800px;
+    height: 300px;
+    max-width: 95%;
+}
+
+#question-page .question {
+    margin-top: 57px;
+}
+
+#question-page .subtitle {
+    margin-top: -5px;
+}
+
+#question-page .answer-box {
+    width: 80%;
+    height: 36px;
+    margin-top: 25px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    font-size: 24px;
+}
+
+#question-page .btn {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 83px;
+    height: 35px;
+    margin-top: 32px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgb(52, 174, 255);
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Final page */
+
+#final-page {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#final-page .container {
+    width: 800px;
+    height: 150px;
+}
+
+#final-page .title {
+    font-size: 38px;
+    margin-top: 11px;
+}
+
+#final-page .subtitle {
+    font-size: 23px;
+    margin-top: -6px;
+}
+
+#final-page .btn {
+    width: 72px;
+    height: 28px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgb(52, 174, 255);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}

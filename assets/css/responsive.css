@@ -1,0 +1,92 @@
+/* PC */
+@media (min-width: 1024px) {
+    
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #input-page .container {
+        width: 600px;
+        height: 650px;
+    }
+    .common-title {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    
+    .common-subtitle {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    #input-page .btn {
+        width: 100px;
+        height: 50px;
+        margin-top: 2em;
+    }
+
+    #main-page .title {
+        margin-top: 35%;
+        font-size: 65px;
+    }
+
+    #question-page .question {
+        margin-top: 2rem;
+
+    }
+
+    #final-page .container {
+        max-width: 95%;
+        height: auto;
+        padding-bottom: 25px;
+    }
+}
+
+/* Phone */
+@media only screen and (min-width: 0) and (max-width: 600px) {
+    #input-page .container {
+        max-width: 95%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #input-page .subtitle {
+        font-size: 16px;
+    }
+
+    #question-page .container {
+        height: auto;
+        padding-bottom: 90px;
+    }
+
+    #question-page .question {
+        font-size: 25px;
+    }
+
+    #question-page .subtitle {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    #question-page .answer-box {
+        height: 25px;
+    }
+
+    #question-page .btn {
+        margin-top: 28px;
+    }
+
+    #final-page .container {
+        max-width: 95%;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    #final-page .title {
+        font-size: 26px;
+    }
+
+    #final-page .subtitle {
+        font-size: 16px;
+    }
+}
